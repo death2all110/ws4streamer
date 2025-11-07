@@ -15,7 +15,7 @@ WORKDIR /home/pptruser/app
 
 # Copy package files and install dependencies
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
 # Copy the streamer and server scripts
 COPY streamer.mjs .
