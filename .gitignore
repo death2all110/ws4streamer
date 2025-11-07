@@ -4,3 +4,4 @@ audio_list.txt
 .vs/
 .vscode/
 *.esproj
+obj/Debug
