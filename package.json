@@ -1,0 +1,18 @@
+{
+  "name": "ws4kp-streamer",
+  "version": "1.0.0",
+  "description": "Streams ws4kp from Puppeteer to FFmpeg as HLS.",
+  "main": "streamer.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"node streamer.mjs\" \"node server.mjs\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.2.0",
+    "puppeteer": "^22.10.0"
+  }
+}
